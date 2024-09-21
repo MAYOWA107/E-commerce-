@@ -26,7 +26,6 @@ urlpatterns = [
     path('', include(product_router.urls)),
     path('', include(cart_router.urls)),
 
-    path('', include('rest_framework.urls')),
    #path('', CategoryListView.as_view(), name='categories'),
    #path('category/<int:pk>', CategoryDetailView.as_view(), name='category'),
     #path('products', ProductListView.as_view(), name='products'),
